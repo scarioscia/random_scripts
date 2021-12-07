@@ -7,7 +7,7 @@
 library(dplyr)
 
 # read in data - not in good shape 
-bones_data <- read.table("/Users/saracarioscia/mccoy-lab/random_project_seeds/bones_days.txt", header = FALSE, fill = TRUE)
+bones_data <- read.table("/Users/saracarioscia/grad-school/random_scripts/bones_days.txt", header = FALSE, fill = TRUE)
 bones_or_no_days <- bones_data
 
 # Georgetown's season started November 13th so only keep rows with November and December in the first two columns 
